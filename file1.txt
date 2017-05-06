@@ -17,5 +17,18 @@
 	git commit -m '仓库的名字'
 
 
+git log 显示最近提交到最元的提交日志
+git log --pretty=online  整理后的提交日志
+
+//时光窜梭机
+git reset --hard HEAD^ 回退到上个版本      
+git reset --hard HEAD~10代表回退到10个版本之前
+git reset --hard(commit id)恢复到 现在这个版本号
+
+//工作区和暂存区   版本库(respository)
+
+git diff    #是工作区(work dict)和暂存区(stage)的比较
+git diff --cached    #是暂存区(stage)和分支(master)的比较
+
 
 	
