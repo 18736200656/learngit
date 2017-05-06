@@ -30,5 +30,10 @@ git reset --hard(commit id)恢复到 现在这个版本号
 git diff    #是工作区(work dict)和暂存区(stage)的比较
 git diff --cached    #是暂存区(stage)和分支(master)的比较
 
+git checkout -- file可以丢弃工作区的修改：
+$ git checkout -- readme.txt
+
+git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区：
+$ git reset HEAD readme.txt
 
 	
